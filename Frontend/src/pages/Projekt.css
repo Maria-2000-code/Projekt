@@ -1,0 +1,47 @@
+.projekt-seite {
+    min-height: 100vh;
+    display: flex;
+}
+
+.projekt-sider {
+    height: 100vh;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+.projekt-sider .ant-layout-sider-children {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    padding-bottom: 16px;
+}
+
+.projekt-logo-kopf {
+    text-align: center;
+    padding: 24px 16px 12px 16px;
+}
+
+.logo-container {
+    background: #ffffff;
+    display: inline-block;
+    padding: 10px 16px;
+    border-radius: 6px;
+}
+
+.login-logo {
+    width: auto;
+    height: 150px;
+    display: block;
+    mix-blend-mode: multiply;
+}
+
+.projekt-titel-kopf {
+    text-align: center;
+    padding: 0 16px 24px 16px;
+}
+
+.projekt-menu-unten {
+    margin-top: auto;
+}

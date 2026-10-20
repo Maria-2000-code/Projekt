@@ -1,0 +1,19 @@
+:root {
+	--akzent: #d6247a;
+	--fehler: #c42b1c;
+	--hintergrund: #f3f3f3;
+	--schriftfarbe: rgba(0, 0, 0, 0.8956);
+	--karte: rgba(255, 255, 255, 0.7);
+	--rand: rgba(0, 0, 0, 0.0578);
+	--radius-fenster: 8px;
+	--radius-element: 4px;
+}
+
+body {
+	margin: 0;
+	font-size: 14px;
+	line-height: 20px;
+	background: var(--hintergrund);
+	color: var(--schriftfarbe);
+	min-height: 100vh;
+}

@@ -1,0 +1,21 @@
+# IDEs & Editor-Dateien
+.classpath
+.project
+.settings/
+
+# Backend
+backend/target/
+*.class
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+
+# Betriebssystem-Dateien
+Thumbs.db
+
+# Zertifikate und Schlüssel
+*.p12
+
+# Datenbank
+DB/
